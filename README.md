@@ -15,7 +15,7 @@
     Прикрепите в файл README.md скриншот авторизации в админке.
     Приложите в файл README.md текст использованных команд в GitHub.
 
-## Решение 1
+### Решение 1
 Скриншот авторизации
 ![Скриншот-1](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/admin_panel.png)
 
@@ -47,7 +47,7 @@
     Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
     Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
     Приложите в файл README.md текст использованных команд в GitHub
-## Решение 2
+### Решение 2
 Скриншот с хостами
 ![Скриншот-2](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/conf_hosts.png)
 Скриншот логов агента
@@ -64,7 +64,7 @@
 
     Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
 
-## Решение 3
+### Решение 3
 Скриншот занятого пространства на диске в процентах(соотв. свободно ~81%)
 ![Скриншот-6](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/disk_space_utilization.png)
 
