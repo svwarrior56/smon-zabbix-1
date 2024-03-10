@@ -57,3 +57,15 @@
 
 ![Скриншот-5](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/custom_dashboard.png)
 
+## Задание 3 со звёздочкой*
+
+Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
+Требования к результаты
+
+    Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
+
+## Решение 3
+Скриншот занятого пространства на диске в процентах(соотв. свободно ~81%)
+![Скриншот-6](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/disk_space_utilization.png)
+
+
