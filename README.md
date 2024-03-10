@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "`Система Мониторинга Zabbix" - `Васильев Сергей` - SMON29
 
-Задание 1
+## Задание 1
 
 Установите Zabbix Server с веб-интерфейсом.
 Процесс выполнения
@@ -15,7 +15,7 @@
     Прикрепите в файл README.md скриншот авторизации в админке.
     Приложите в файл README.md текст использованных команд в GitHub.
 
-Решение 1
+## Решение 1
 Скриншот авторизации
 ![Скриншот-1](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/admin_panel.png)
 
@@ -23,14 +23,14 @@
 * sudo apt install postgresql postgresql-contrib
 * sudo systemctl enable postgresql
 * wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian12_all.deb
-dpkg -i zabbix-release_6.4-1+debian12_all.deb
+* dpkg -i zabbix-release_6.4-1+debian12_all.deb
 * apt update
 * apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 * sudo -u postgres createuser --pwprompt zabbix
 * sudo -u postgres createdb -O zabbix zabbix
    
 
-Задание 2
+## Задание 2
 
 Установите Zabbix Agent на два хоста.
 Процесс выполнения
@@ -47,4 +47,13 @@ dpkg -i zabbix-release_6.4-1+debian12_all.deb
     Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
     Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
     Приложите в файл README.md текст использованных команд в GitHub
+## Решение 2
+Скриншот с хостами
+![Скриншот-2](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/conf_hosts.png)
+Скриншот логов агента
+![Скриншот-3](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/agent_ob_server_log.png)
+Скриншоты: последние данные и дашборд с нагрузкой процессора с узлов
+![Скриншот-4](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/latest_data.png)
+
+![Скриншот-5](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/custon_dashboard.png)
 
