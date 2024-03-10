@@ -51,9 +51,9 @@
 Скриншот с хостами
 ![Скриншот-2](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/conf_hosts.png)
 Скриншот логов агента
-![Скриншот-3](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/agent_ob_server_log.png)
+![Скриншот-3](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/agent_on_server_log.png)
 Скриншоты: последние данные и дашборд с нагрузкой процессора с узлов
 ![Скриншот-4](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/latest_data.png)
 
-![Скриншот-5](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/custon_dashboard.png)
+![Скриншот-5](https://github.com/svwarrior56/smon-zabbix-1/blob/main/img/custom_dashboard.png)
 
